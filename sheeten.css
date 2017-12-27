@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+}
+div#container{
+    color: #444;
+    width: 900px;
+    max-width: 90%;
+    margin: 4% auto;
+    border: 1px solid #ccc;
+    font-size: 10pt;
+    background-color: #F8F9F9;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    box-shadow: 0 1px 6px #aaa;
+    -webkit-box-shadow: 0 1px 10px #aaa;
+    -o-box-shadow: 0 1px 6px #aaa;
+    -ms-box-shadow: 0 1px 6px #aaa;
+}
+div#image{
+    text-align: center;
+}
+div#foten{
+    border-top: solid 1px #DDD;
+}
+div#sockan{
+    text-align: center;
+}
+div.menyknapp{
+    display: inline-block;
+    text-align: center;
+    height: inherit;
+    border-left: solid 1px #DDD;
+    margin-left: -4px;
+}
+div.sista{
+    border-right: solid 1px #DDD;
+}
+
+img#luckey{
+    width: 90%;
+    opacity: 0.9;
+    padding: 5%;
+}
+
+a{
+    padding: 14px 30px;
+    display: block;
+    color: #444;
+    text-decoration: none;
+    height: inherit;
+    width: inherit;
+    font-family: Garamond;
+    font-size: 17px;
+    background-color: #f8f9f9;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+}
+a:hover{
+    background-color: #EEE;
+}
+
+
+@media (max-width: 480px){
+    div.menyknapp{
+	display: block;
+	border-top: solid 1px #DDD;
+	border-left: 0;
+	margin-left: 0;
+    }
+    div.sista{
+	border-right: 0;
+    }
+    div#foten{
+	border-top: 0;
+	margin-bottom: 3px;
+    }
+    div#container{
+        margin: 4% auto;
+	max-width: 92%;
+    }
+}
